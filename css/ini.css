@@ -1,0 +1,56 @@
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.bg-primary-gradient {
+    background-image: linear-gradient(to right, #ff00cc, #3333ff);
+}
+
+.bg-secondary-gradient {
+    background-image: linear-gradient(to right, #ff9933, #ff00cc);
+}
+
+.bg-success-gradient {
+    background-image: linear-gradient(to right, #00cc66, #99ff00);
+}
+
+.bg-info-gradient {
+    background-image: linear-gradient(to right, #00ccff, #0066ff);
+}
+
+.bg-primary-gradient img,
+.bg-secondary-gradient img,
+.bg-success-gradient img,
+.bg-info-gradient img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.bg-primary-gradient:hover img,
+.bg-secondary-gradient:hover img,
+.bg-success-gradient:hover img,
+.bg-info-gradient:hover img {
+    transform: scale(1.1);
+}

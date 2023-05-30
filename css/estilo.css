@@ -1,0 +1,163 @@
+body
+{
+	background-color: #E5E7E9;
+}
+
+
+.contenedorCuadro
+{
+	background-color: #ffffff;
+	max-width: 600px;
+	padding: 20px;
+	margin: auto;
+	border: solid;
+	border-radius: 10px;
+	margin-top: 5%;
+	border-color: #E5E7E9;
+}
+
+.contenedorReferencias
+{
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 50px;
+}
+
+.contenedorFormulario
+{
+	
+	margin: auto;
+	margin-top: 5%;
+}
+
+.contenedorFormulario form input
+{
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: medium;
+	border-color: #E5E7E9;
+	padding: 4px;
+}
+
+.contenedorFormulario form select
+{
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: medium;
+	border-color: #E5E7E9;
+	padding: 4px;
+}
+ 
+
+
+.botonLargo
+{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #AED6F1;
+	border-radius: 10px;
+	border-color: #99A3A4;
+	font-size: medium;
+	padding: 5px;
+}
+
+.contenedorFormulario .botonSesion button:hover
+{ 
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #3498DB;
+	border-radius: 10px;
+	border-color: #ffffff;
+	font-size: medium;
+	padding: 5px;
+}
+
+.botonCorto
+{
+	width: 50%;
+	display:block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #AED6F1;
+	border-color: #AED6F1;
+	font-size: medium;
+	padding: 5px;
+}
+
+
+.contenedorFormulario .botonRecuperar button:hover
+{
+	width: 50%;
+	display:block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #3498DB;
+	border-color: #AED6F1;
+	font-size: medium;
+	padding: 5px;
+}
+
+
+.contenedorFormulario form .fraccionar input
+{
+	width: 52%;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: medium;
+	border-color: #E5E7E9;
+	padding: 4px;
+	margin-left: 2px ;
+}
+
+.contenedorFormulario form .fraccionarContraseña input
+{
+	width: 45%;
+	margin-top: 5px;
+	border-radius: 4px;
+	font-size: medium;
+	border-color: #E5E7E9;
+	padding: 4px;
+}
+
+.file-select {
+  position: relative;
+  display: inline-block;
+}
+
+.file-select::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 15px;
+  border: solid;
+  padding: 10px;
+  color: #515A5A;
+  border-color: #E5E7E9;
+  content: 'Seleccionar'; /* texto por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: medium;
+}
+
+.file-select input[type="file"] {
+  opacity: 0;
+  width: 100%;
+  display: inline-block;
+  font-size: medium;
+}
+
+#src-file1::before {
+	font-size: medium;
+  	content: 'Subir foto de perfil';
+}
